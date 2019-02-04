@@ -65,7 +65,7 @@ import java.util.List;
 import com.android.settingslib.widget.FooterPreference;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.internal.util.superior.AncientUtils;
+import com.android.internal.util.ancient.AncientUtils;
 
 import com.ancient.settings.R;
 
