@@ -18,19 +18,19 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:superiorsettings="http://schemas.android.com/apk/res-auto"
+    xmlns:ancientsettings="http://schemas.android.com/apk/res-auto"
     android:title="@string/recent_app_sidebar_style_title">
 
-    <com.superior.settings.preferences.SystemSettingSeekBarPreference
+    <com.ancient.settings.preferences.SystemSettingSeekBarPreference
         android:key="recent_app_sidebar_scale_factor"
         android:title="@string/recent_app_sidebar_scale_title"
         android:defaultValue="100"
         android:min="60"
         android:max="160"
-        superiorsettings:interval="5"
-        superiorsettings:unitsRight="%" />
+        ancientsettings:interval="5"
+        ancientsettings:unitsRight="%" />
 
-    <com.superior.settings.preferences.SystemSettingSwitchPreference
+    <com.ancient.settings.preferences.SystemSettingSwitchPreference
         android:key="recent_app_sidebar_disable_labels"
         android:title="@string/recent_app_sidebar_hide_labels_title"
         android:disableDependentsState="true"
@@ -49,7 +49,7 @@
         android:defaultValue="0x00ffffff"
         alphaSlider="true" />
 
-    <com.superior.settings.preferences.SystemSettingSwitchPreference
+    <com.ancient.settings.preferences.SystemSettingSwitchPreference
         android:key="recent_app_sidebar_open_simultaneously"
         android:title="@string/recent_app_sidebar_open_simultaneously_title"
         android:summary="@string/recent_app_sidebar_open_simultaneously_summary"

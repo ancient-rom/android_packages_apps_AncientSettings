@@ -18,17 +18,17 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:superiorsettings="http://schemas.android.com/apk/res-auto"
+    xmlns:ancientsettings="http://schemas.android.com/apk/res-auto"
     android:title="@string/slim_recents_title">
 
-    <com.superior.settings.preferences.SystemSettingSeekBarPreference
+    <com.ancient.settings.preferences.SystemSettingSeekBarPreference
         android:key="recent_panel_scale_factor"
         android:title="@string/recent_panel_scale_title"
         android:min="60"
         android:max="160"
         android:defaultValue="100"
-        superiorsettings:interval="5"
-        superiorsettings:unitsRight="%" />
+        ancientsettings:interval="5"
+        ancientsettings:unitsRight="%" />
 
     <net.margaritov.preference.colorpicker.ColorPickerPreference
         android:key="recent_panel_bg_color"
@@ -42,7 +42,7 @@
         android:defaultValue="0x00ffffff"
         alphaSlider="true" />
 
-    <com.superior.settings.preferences.SystemSettingSeekBarPreference
+    <com.ancient.settings.preferences.SystemSettingSeekBarPreference
         android:key="recents_max_apps"
         android:title="@string/recents_max_apps_title"
         android:defaultValue="15"
@@ -55,16 +55,16 @@
         android:summary="@string/recent_panel_lefty_mode_summary"
         android:defaultValue="false" />
 
-    <com.superior.settings.preferences.SystemSettingSeekBarPreference
+    <com.ancient.settings.preferences.SystemSettingSeekBarPreference
         android:key="slim_recents_corner_radius"
         android:title="@string/slim_recents_corner_radius_title"
         android:min="0"
         android:max="20"
         android:defaultValue="8"
-        superiorsettings:interval="1"
-        superiorsettings:unitsRight="dp" />
+        ancientsettings:interval="1"
+        ancientsettings:unitsRight="dp" />
 
-    <com.superior.settings.preferences.SystemSettingIntListPreference
+    <com.ancient.settings.preferences.SystemSettingIntListPreference
         android:key="recent_panel_expanded_mode"
         android:entries="@array/recent_panel_expanded_mode_entries"
         android:entryValues="@array/recent_panel_expanded_mode_values"
@@ -79,11 +79,11 @@
 
     <PreferenceScreen
         android:key="blacklist_fragment"
-        android:fragment="com.superior.settings.fragments.SlimRecentsBlacklist"
+        android:fragment="com.ancient.settings.fragments.SlimRecentsBlacklist"
         android:title="@string/slim_blacklist_apps_cat_title"
         android:summary="@string/slim_blacklist_apps_summary" />
 
-    <com.superior.settings.preferences.SystemSettingSwitchPreference
+    <com.ancient.settings.preferences.SystemSettingSwitchPreference
         android:key="use_recent_app_sidebar"
         android:title="@string/recent_app_sidebar_title"
         android:summary="@string/recent_app_sidebar_summary"
@@ -93,17 +93,17 @@
         android:key="recent_app_sidebar"
         android:title="@string/recent_app_sidebar_picker_title"
         android:summary="@string/recent_app_sidebar_picker_summary"
-        android:fragment="com.superior.settings.preferences.dslv.ActionListViewSettings"
+        android:fragment="com.ancient.settings.preferences.dslv.ActionListViewSettings"
         android:dependency="use_recent_app_sidebar" >
         <extra android:name="actionMode" android:value="7" />
         <extra android:name="maxAllowedActions" android:value="-1" />
         <extra android:name="useAppPickerOnly" android:value="true" />
-        <extra android:name="fragment" android:value="com.superior.settings.fragments.SlimRecentAppSidebar" />
+        <extra android:name="fragment" android:value="com.ancient.settings.fragments.SlimRecentAppSidebar" />
     </PreferenceScreen>
 
     <PreferenceScreen
         android:key="recent_app_sidebar_fragment"
-        android:fragment="com.superior.settings.fragments.SlimRecentAppSidebarStyle"
+        android:fragment="com.ancient.settings.fragments.SlimRecentAppSidebarStyle"
         android:title="@string/recent_app_sidebar_style_title"
         android:summary="@string/recent_app_sidebar_style_summary"
         android:dependency="use_recent_app_sidebar" />
@@ -111,14 +111,14 @@
     <PreferenceCategory
         android:title="@string/slim_recents_mem_display_category_title">
 
-        <com.superior.settings.preferences.SystemSettingSwitchPreference
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
             android:key="slim_recents_mem_display"
             android:title="@string/slim_recents_mem_display_title"
             android:summaryOn="@string/slim_recents_mem_display_summaryOn"
             android:summaryOff="@string/slim_recents_mem_display_summaryOff"
             android:defaultValue="false" />
 
-        <com.superior.settings.preferences.SystemSettingSwitchPreference
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
             android:key="slim_recents_mem_display_long_click_clear"
             android:title="@string/slim_recents_mem_display_long_click_clear_title"
             android:summary="@string/slim_recents_mem_display_long_click_clear_summary"
