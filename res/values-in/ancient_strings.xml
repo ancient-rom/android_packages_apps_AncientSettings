@@ -80,6 +80,11 @@
     <string name="statusbar_title">Status Bar</string>
     <string name="notifications_title">Notifikasi</string>
 	
+    <!-- Features Header -->
+    <string name="head_display">Antarmuka</string>
+    <string name="head_hardware">Hardware</string>
+    <string name="head_system">Sistem</string>
+	
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
