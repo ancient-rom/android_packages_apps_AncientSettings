@@ -20,11 +20,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/ancient_settings_title" >
 	
-    <PreferenceCategory
+<!--
+<PreferenceCategory
             android:key="about rom"
             android:title="About ROM" >
-
-		<!-- About Devs -->
+-->
+		<!-- About Devs 
         <Preference
             android:key="dev_info"
             android:title="@string/ancient_about_info"
@@ -33,10 +34,11 @@
             android:icon="@drawable/ic_ancient_about"/>
 
     </PreferenceCategory>
-
+-->
+	
     <PreferenceCategory
-            android:key="features"
-            android:title="Ancient Features" >
+            android:key="hd_interface"
+            android:title="@string/head_display" >
 
         <!-- Status Bar -->
         <com.ancient.settings.preferences.CardviewPreference
@@ -51,7 +53,34 @@
             android:title="@string/quicksettings_title"
             android:fragment="com.ancient.settings.fragments.QuickSettings"
             android:icon="@drawable/ic_settings_quicksettings"/>
+	    
+        <!-- Recents -->
+        <com.ancient.settings.preferences.CardviewPreference
+            android:key="recents_category"
+            android:title="@string/recents_title"
+            android:fragment="com.ancient.settings.fragments.RecentsSettings"
+            android:icon="@drawable/ic_settings_recents"/>
 
+        <!-- Notifications -->
+        <com.ancient.settings.preferences.CardviewPreference
+            android:key="notifications_category"
+            android:title="@string/notifications_title"
+            android:fragment="com.ancient.settings.fragments.NotificationSettings"
+            android:icon="@drawable/ic_settings_notifications"/>
+	   
+        <!-- Lock Screen -->
+        <com.ancient.settings.preferences.CardviewPreference
+            android:key="lockscreen_category"
+            android:title="@string/lockscreen_title"
+            android:fragment="com.ancient.settings.fragments.LockscreenSettings"
+            android:icon="@drawable/ic_settings_lockscreen"/>
+	    
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="hd_hardware"
+            android:title="@string/head_hardware" >
+	    
         <!-- Buttons -->
         <com.ancient.settings.preferences.CardviewPreference
             android:key="buttonsettings_category"
@@ -72,13 +101,12 @@
             android:title="@string/gestures_title"
             android:fragment="com.ancient.settings.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_gestures"/>
-
-        <!-- Lock Screen -->
-        <com.ancient.settings.preferences.CardviewPreference
-            android:key="lockscreen_category"
-            android:title="@string/lockscreen_title"
-            android:fragment="com.ancient.settings.fragments.LockscreenSettings"
-            android:icon="@drawable/ic_settings_lockscreen"/>
+	   
+    </PreferenceCategory>
+	   
+    <PreferenceCategory
+            android:key="hd_system"
+            android:title="@string/head_system" >
 
         <!-- Power Menu -->
         <com.ancient.settings.preferences.CardviewPreference
@@ -86,20 +114,6 @@
             android:title="@string/powermenu_title"
             android:fragment="com.ancient.settings.fragments.PowermenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
-
-        <!-- Recents -->
-        <com.ancient.settings.preferences.CardviewPreference
-            android:key="recents_category"
-            android:title="@string/recents_title"
-            android:fragment="com.ancient.settings.fragments.RecentsSettings"
-            android:icon="@drawable/ic_settings_recents"/>
-
-        <!-- Notifications -->
-        <com.ancient.settings.preferences.CardviewPreference
-            android:key="notifications_category"
-            android:title="@string/notifications_title"
-            android:fragment="com.ancient.settings.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notifications"/>
 
         <!-- Misc -->
         <com.ancient.settings.preferences.CardviewPreference
