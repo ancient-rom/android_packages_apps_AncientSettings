@@ -18,7 +18,7 @@
 
 <PreferenceScreen
 xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="Ancient ROM">
+        android:title="ANCIENT ROM">
 		
 		<!-- Header -->
         <Preference android:key="ancient_logo"
@@ -98,7 +98,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 </PreferenceCategory>
 
 
-<PreferenceCategory
+<!--<PreferenceCategory
             android:key="maintainer"
             android:title="@string/maintainers_header" >
 			
@@ -225,5 +225,5 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:data="https://google.com" />
         </Preference>
 
-</PreferenceCategory>
+</PreferenceCategory>-->
 </PreferenceScreen>

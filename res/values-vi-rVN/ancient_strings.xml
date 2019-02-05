@@ -36,7 +36,7 @@
     <string name="dev5_description">Web Developer</string>
     <string name="dev_6">Overbore</string>
     <string name="dev6_description">Developer</string>
-    <!-- Maintainer Info -->
+    <!-- Maintainer Info 
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
     <string name="device_motorola">Motorola</string>
@@ -61,7 +61,7 @@
     <string name="z2_plus_maintainer">Yashodhan Sawardekar</string>
     <string name="z2_plus_maintainer_description">Zuk Z2 Plus</string>
     <string name="markw_maintainer">Aggelos Savvopoulos</string>
-    <string name="markw_maintainer_description">Redmi 4 Prime</string>
+    <string name="markw_maintainer_description">Redmi 4 Prime</string>-->
 
     <!-- Categories -->
     <string name="button_title">Nút bấm</string>
