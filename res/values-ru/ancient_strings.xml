@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="ancient_settings_title">Настройки Ancient</string>
-    <string name="ancient_dashboard_summary">Mlehoy</string>
+    <string name="ancient_dashboard_summary">Жесты, Панель навигации, Прочее</string>
     <!-- ROM Info -->
     <string name="ancient_about_info">О проекте</string>
     <string name="ancient_about_info_summary_title">О команде</string>
