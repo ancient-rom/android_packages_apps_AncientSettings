@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="ancient_settings_title">Cài đặt Ancient</string>
-    <string name="ancient_dashboard_summary">Mlehoy</string>
+    <string name="ancient_dashboard_summary">Cử chỉ, Thanh điều hướng, Cài đặt bổ sung</string>
     <!-- ROM Info -->
     <string name="ancient_about_info">Về dự án Ancient</string>
     <string name="ancient_about_info_summary_title">Masih dalam Test</string>
