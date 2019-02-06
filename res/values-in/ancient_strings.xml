@@ -16,8 +16,8 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="ancient_settings_title">Ancient Settings</string>
-    <string name="ancient_dashboard_summary">Mlehoy</string>
+    <string name="ancient_settings_title">Kustomisasi Ancient</string>
+    <string name="ancient_dashboard_summary">Gestur, Bilah Navigasi, Lainnya</string>
 	
 	<!-- ROM Info -->
     <string name="ancient_about_info">Tentang Proyek</string>
@@ -79,6 +79,11 @@
     <string name="recents_title">Recents Apps</string>
     <string name="statusbar_title">Status Bar</string>
     <string name="notifications_title">Notifikasi</string>
+	
+    <!-- Features Header -->
+    <string name="head_display">Antarmuka</string>
+    <string name="head_hardware">Hardware</string>
+    <string name="head_system">Sistem</string>
 	
     <!-- General strings -->
     <string name="ok">OK</string>
