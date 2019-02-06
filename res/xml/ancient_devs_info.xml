@@ -33,7 +33,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                android:summary="@string/ancient_about_info_summary" 
                android:icon="@drawable/ic_devs_info" >
         <intent android:action="android.intent.action.VIEW"
-                android:data="https://google.com" />
+                android:data="https://t.me/ancientrom" />
        </Preference>
      </PreferenceCategory>
 
@@ -47,7 +47,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:icon="@drawable/ic_code" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="hhttps://google.com" />
+            android:data="https://t.me/Reza_Adi_Pangestu" />
         </Preference>
 
         <Preference
@@ -56,43 +56,169 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:icon="@drawable/ic_code" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://google.com" />
+            android:data="https://t.me/beamguide" />
         </Preference>
 
         <Preference
-            android:title="@string/dev_6"
-            android:summary="@string/dev6_description"
+            android:title="@string/dev_3"
+            android:summary="@string/dev3_description"
             android:icon="@drawable/ic_code" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://google.com" />
+            android:data="https://t.me/guzram" />
         </Preference>
 
-		<Preference
-            android:title="@string/dev_3"
-            android:summary="@string/dev3_description"
-            android:icon="@drawable/ic_design" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://google.com" />
-        </Preference>
-		
-		<Preference
+        <Preference
             android:title="@string/dev_4"
             android:summary="@string/dev4_description"
-            android:icon="@drawable/ic_design" >
+            android:icon="@drawable/ic_code" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://google.com" />
+            android:data="https://t.me/ehkagetgue" />
         </Preference>
 
 		<Preference
             android:title="@string/dev_5"
             android:summary="@string/dev5_description"
+            android:icon="@drawable/ic_design" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/blackascrows" />
+        </Preference>
+		
+		<Preference
+            android:title="@string/dev_6"
+            android:summary="@string/dev6_description"
+            android:icon="@drawable/ic_design" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Rohieth" />
+        </Preference>
+
+		<Preference
+            android:title="@string/dev_7"
+            android:summary="@string/dev7_description"
             android:icon="@drawable/ic_devs_pc" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://google.com" />
+            android:data="https://t.me/baloseribu" />
+        </Preference>
+
+        <Preference
+            android:title="@string/dev_8"
+            android:summary="@string/dev8_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Overbore" />
+        </Preference>
+
+        <Preference
+            android:title="@string/dev_9"
+            android:summary="@string/dev9_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/fachmy_mochamad" />
+        </Preference>
+
+        <Preference
+            android:title="@string/dev_10"
+            android:summary="@string/dev10_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Mi3nyd46" />
+        </Preference>
+
+        <Preference
+            android:title="@string/dev_11"
+            android:summary="@string/dev11_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/coyotesuck" />
+        </Preference>
+
+        <Preference
+            android:title="@string/dev_12"
+            android:summary="@string/dev12_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Timothy138" />
+        </Preference>
+
+        <Preference
+            android:title="@string/dev_13"
+            android:summary="@string/dev13_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/RendraNdraok" />
+        </Preference>
+
+        <Preference
+            android:title="@string/dev_14"
+            android:summary="@string/dev14_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/yanuri1307" />
+        </Preference>
+
+        <Preference
+            android:title="@string/dev_15"
+            android:summary="@string/dev15_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/wa_nyak" />
+        </Preference>
+
+        <Preference
+            android:title="@string/dev_16"
+            android:summary="@string/dev16_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Zeinudin" />
+        </Preference>
+
+        <Preference
+            android:title="@string/dev_17"
+            android:summary="@string/dev17_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Ichsanputh" />
+        </Preference>
+
+        <Preference
+            android:title="@string/dev_18"
+            android:summary="@string/dev18_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/PapriYoung" />
+        </Preference>
+
+        <Preference
+            android:title="@string/dev_19"
+            android:summary="@string/dev19_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Maxanderz" />
+        </Preference>
+
+         <Preference
+            android:title="@string/dev_20"
+            android:summary="@string/dev20_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/matthewex" />
         </Preference>
 
 </PreferenceCategory>
