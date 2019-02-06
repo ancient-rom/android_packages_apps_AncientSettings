@@ -68,6 +68,8 @@
     <string name="dev19_description">Beloved Family</string>
     <string name="dev_20">@Maxanderz</string>
     <string name="dev20_description">Beloved Family</string>
+    <!-- Maintainer Info 
+    <string name="device_xiaomi">Xiaomi</string> -->
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>

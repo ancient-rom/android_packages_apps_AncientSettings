@@ -223,7 +223,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
 </PreferenceCategory>
 
-
 <!--<PreferenceCategory
             android:key="maintainer"
             android:title="@string/maintainers_header" >
@@ -249,107 +248,5 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:action="android.intent.action.VIEW"
             android:data="https://google.com" />
         </Preference>
-</PreferenceCategory>
-
-<PreferenceCategory
-            android:key="maintainer"
-            android:title="@string/device_lenovo" >
-			
-        <Preference
-            android:title="@string/kuntao_maintainer"
-            android:summary="@string/kuntao_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://google.com" />
-        </Preference>
-		
-        <Preference
-            android:title="@string/z2_plus_maintainer"
-            android:summary="@string/z2_plus_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://google.com" />
-        </Preference>
-</PreferenceCategory>
-
-<PreferenceCategory
-            android:key="maintainer"
-            android:title="@string/device_motorola" >
-			
-        <Preference
-            android:title="@string/sanders_maintainer"
-            android:summary="@string/sanders_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://google.com" />
-        </Preference>
-</PreferenceCategory>
-
-<PreferenceCategory
-            android:key="maintainer"
-            android:title="@string/device_pantech" >
-			
-        <Preference
-            android:title="@string/ef63_maintainer"
-            android:summary="@string/ef63_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://google.com" />
-        </Preference>
-</PreferenceCategory>
-
-<PreferenceCategory
-            android:key="maintainer"
-            android:title="@string/device_xiaomi" >
-
-        <Preference
-            android:title="@string/markw_maintainer"
-            android:summary="@string/markw_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://google.com" />
-        </Preference>
-
-        <Preference
-            android:title="@string/rolex_maintainer"
-            android:summary="@string/rolex_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://google.com" />
-        </Preference>
-
-        <Preference
-            android:title="@string/mido_maintainer"
-            android:summary="@string/mido_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://google.com" />
-        </Preference>
-
-        <Preference
-            android:title="@string/tissot_maintainer"
-            android:summary="@string/tissot_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://google.com" />
-        </Preference>
-
-        <Preference
-            android:title="@string/santoni_maintainer"
-            android:summary="@string/santoni_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://google.com" />
-        </Preference>
-
 </PreferenceCategory>-->
 </PreferenceScreen>

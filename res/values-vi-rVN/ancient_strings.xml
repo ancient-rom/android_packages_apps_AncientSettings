@@ -65,31 +65,7 @@
     <string name="dev_20">@Maxanderz</string>
     <string name="dev20_description">Beloved Family</string>
     <!-- Maintainer Info 
-    <string name="device_xiaomi">Xiaomi</string>
-    <string name="device_asus">Asus</string>
-    <string name="device_motorola">Motorola</string>
-    <string name="device_pantech">Pantech</string>
-    <string name="device_lenovo">Lenovo</string>
-    <string name="mido_maintainer">Himanshu ‌‌‎Naamdev</string>
-    <string name="mido_maintainer_description">Redmi Note 4</string>
-    <string name="santoni_maintainer">Prakash_S</string>
-    <string name="santoni_maintainer_description">Redmi 4/4X</string>
-    <string name="X00T_maintainer">Priyanshu Pandey</string>
-    <string name="X00T_maintainer_description">Zenfone Max Pro M1</string>
-    <string name="rolex_maintainer">Arpon Sarkar</string>
-    <string name="rolex_maintainer_description">Redmi 4A</string>
-    <string name="tissot_maintainer">Jay Chauhan</string>
-    <string name="tissot_maintainer_description">Mi A1</string>
-    <string name="ef63_maintainer">Chau Truong Thinh</string>
-    <string name="ef63_maintainer_description">Vega Iron 2</string>
-    <string name="sanders_maintainer">Yash Sonawane</string>
-    <string name="sanders_maintainer_description">Moto G5S Plus</string>
-    <string name="kuntao_maintainer">Saikiran</string>
-    <string name="kuntao_maintainer_description">P2</string>
-    <string name="z2_plus_maintainer">Yashodhan Sawardekar</string>
-    <string name="z2_plus_maintainer_description">Zuk Z2 Plus</string>
-    <string name="markw_maintainer">Aggelos Savvopoulos</string>
-    <string name="markw_maintainer_description">Redmi 4 Prime</string>-->
+    <string name="device_xiaomi">Xiaomi</string> -->
 
     <!-- Categories -->
     <string name="button_title">Nút bấm</string>
