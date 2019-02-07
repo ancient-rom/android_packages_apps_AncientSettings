@@ -41,35 +41,36 @@
             android:title="@string/head_display" >
 
         <!-- Status Bar -->
-        <com.ancient.settings.preferences.CardviewPreference
+        <!-- <com.ancient.settings.preferences.CardviewPreference until below for originale-->
+	<Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:fragment="com.ancient.settings.fragments.StatusbarSettings"
             android:icon="@drawable/ic_settings_statusbar"/>
 
         <!-- Quick Settings panel -->
-        <com.ancient.settings.preferences.CardviewPreference
+        <Preference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
             android:fragment="com.ancient.settings.fragments.QuickSettings"
             android:icon="@drawable/ic_settings_quicksettings"/>
 	    
         <!-- Recents -->
-        <com.ancient.settings.preferences.CardviewPreference
+        <Preference
             android:key="recents_category"
             android:title="@string/recents_title"
             android:fragment="com.ancient.settings.fragments.RecentsSettings"
             android:icon="@drawable/ic_settings_recents"/>
 
         <!-- Notifications -->
-        <com.ancient.settings.preferences.CardviewPreference
+        <Preference
             android:key="notifications_category"
             android:title="@string/notifications_title"
             android:fragment="com.ancient.settings.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notifications"/>
 	   
         <!-- Lock Screen -->
-        <com.ancient.settings.preferences.CardviewPreference
+        <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title"
             android:fragment="com.ancient.settings.fragments.LockscreenSettings"
@@ -82,21 +83,21 @@
             android:title="@string/head_hardware" >
 	    
         <!-- Buttons -->
-        <com.ancient.settings.preferences.CardviewPreference
+        <Preference
             android:key="buttonsettings_category"
             android:title="@string/button_title"
             android:fragment="com.ancient.settings.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
 
         <!-- Navigation Bar -->
-        <com.ancient.settings.preferences.CardviewPreference
+        <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title"
             android:fragment="com.android.settings.smartnav.NavigationBarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 			
         <!-- Gestures -->
-        <com.ancient.settings.preferences.CardviewPreference
+        <Preference
             android:key="gestures_category"
             android:title="@string/gestures_title"
             android:fragment="com.ancient.settings.fragments.GestureSettings"
@@ -109,14 +110,14 @@
             android:title="@string/head_system" >
 
         <!-- Power Menu -->
-        <com.ancient.settings.preferences.CardviewPreference
+        <Preference
             android:key="powermenu__category"
             android:title="@string/powermenu_title"
             android:fragment="com.ancient.settings.fragments.PowermenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
         <!-- Misc -->
-        <com.ancient.settings.preferences.CardviewPreference
+        <Preference
             android:key="misc_category"
             android:title="@string/misc_title"
             android:fragment="com.ancient.settings.fragments.MiscSettings"
