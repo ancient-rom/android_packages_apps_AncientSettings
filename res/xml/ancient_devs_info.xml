@@ -221,6 +221,24 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:data="https://t.me/matthewex" />
         </Preference>
 
+        <Preference
+            android:title="@string/dev_21"
+            android:summary="@string/dev21_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/QmackLu" />
+        </Preference>
+
+         <Preference
+            android:title="@string/dev_22"
+            android:summary="@string/dev22_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Diablo1908" />
+        </Preference>
+
 </PreferenceCategory>
 
 <!--<PreferenceCategory
