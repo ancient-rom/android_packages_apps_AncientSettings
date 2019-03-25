@@ -20,6 +20,7 @@
     <!-- ROM Info -->
     <string name="ancient_about_info">Về dự án Ancient</string>
     <string name="ancient_about_info_summary_title">craft with heart</string>
+    
     <!-- Dev Info -->
     <string name="devs_header">Developers</string>
     <string name="maintainers_header">Family</string>
@@ -34,23 +35,23 @@
     <string name="dev4_description">Core Team/Developer</string>
     <string name="dev_5">Ominous</string>
     <string name="dev5_description">Designer</string>
-    <string name="dev_6">Rohieth</string>
-    <string name="dev6_description">Web Developer</string>
-    <string name="dev_7">Ahmad Salman</string>
-    <string name="dev7_description">Beloved Family/Predecessor</string>
-    <string name="dev_8">Overbore</string>
+    <string name="dev_6">fadlyfdl</string>
+    <string name="dev6_description">Translator</string>
+    <string name="dev_7">Rohieth</string>
+    <string name="dev7_description">Web Developer</string>
+    <string name="dev_8">Ahmad Salman</string>
     <string name="dev8_description">Beloved Family/Predecessor</string>
-    <string name="dev_9">fachmy_mochamad</string>
+    <string name="dev_9">Overbore</string>
     <string name="dev9_description">Beloved Family/Predecessor</string>
-    <string name="dev_10">Mi3nyd46</string>
+    <string name="dev_10">fachmy_mochamad</string>
     <string name="dev10_description">Beloved Family/Predecessor</string>
-    <string name="dev_11">coyotesuck</string>
-    <string name="dev11_description">Beloved Family</string>
-    <string name="dev_12">Timothy138</string>
+    <string name="dev_11">Mi3nyd46</string>
+    <string name="dev11_description">Beloved Family/Predecessor</string>
+    <string name="dev_12">coyotesuck</string>
     <string name="dev12_description">Beloved Family</string>
-    <string name="dev_13">RendraNdraok</string>
+    <string name="dev_13">Timothy138</string>
     <string name="dev13_description">Beloved Family</string>
-    <string name="dev_14">yanuri1307</string>
+    <string name="dev_14">RendraNdraok</string>
     <string name="dev14_description">Beloved Family</string>
     <string name="dev_15">Aris</string>
     <string name="dev15_description">Beloved Family</string>

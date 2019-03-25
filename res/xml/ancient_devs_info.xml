@@ -89,28 +89,28 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 		<Preference
             android:title="@string/dev_6"
             android:summary="@string/dev6_description"
-            android:icon="@drawable/ic_design" >
+            android:icon="@drawable/ic_code" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/fadlyfdl" />
+        </Preference>
+
+        <Preference
+            android:title="@string/dev_7"
+            android:summary="@string/dev7_description"
+            android:icon="@drawable/ic_devs_pc" >
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Rohieth" />
         </Preference>
 
 		<Preference
-            android:title="@string/dev_7"
-            android:summary="@string/dev7_description"
-            android:icon="@drawable/ic_devs_pc" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/baloseribu" />
-        </Preference>
-
-        <Preference
             android:title="@string/dev_8"
             android:summary="@string/dev8_description"
             android:icon="@drawable/ic_devs_pc" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Overbore" />
+            android:data="https://t.me/baloseribu" />
         </Preference>
 
         <Preference
@@ -119,7 +119,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:icon="@drawable/ic_devs_pc" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/fachmy_mochamad" />
+            android:data="https://t.me/Overbore" />
         </Preference>
 
         <Preference
@@ -128,7 +128,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:icon="@drawable/ic_devs_pc" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Mi3nyd46" />
+            android:data="https://t.me/fachmy_mochamad" />
         </Preference>
 
         <Preference
@@ -137,7 +137,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:icon="@drawable/ic_devs_pc" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/coyotesuck" />
+            android:data="https://t.me/Mi3nyd46" />
         </Preference>
 
         <Preference
@@ -146,7 +146,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:icon="@drawable/ic_devs_pc" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Timothy138" />
+            android:data="https://t.me/coyotesuck" />
         </Preference>
 
         <Preference
@@ -155,7 +155,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:icon="@drawable/ic_devs_pc" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/RendraNdraok" />
+            android:data="https://t.me/Timothy138" />
         </Preference>
 
         <Preference
@@ -164,7 +164,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:icon="@drawable/ic_devs_pc" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/yanuri1307" />
+            android:data="https://t.me/RendraNdraok" />
         </Preference>
 
         <Preference
