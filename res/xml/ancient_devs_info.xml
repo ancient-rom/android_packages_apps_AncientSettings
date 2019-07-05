@@ -170,10 +170,10 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <Preference
             android:title="@string/dev_15"
             android:summary="@string/dev15_description"
-            android:icon="@drawable/ic_devs_pc" >
+            android:icon="@drawable/ic_code" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/wa_nyak" />
+            android:data="https://t.me/androiabledroid" />
         </Preference>
 
         <Preference
