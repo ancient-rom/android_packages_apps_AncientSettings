@@ -48,6 +48,13 @@
             android:title="@string/traffic_title"
             android:key="traffic"
             android:fragment="com.ancient.settings.fragments.Traffic" />
+	
+	<ListPreference
+        android:key="status_bar_show_weather_temp"
+        android:title="@string/statusbar_weather_title"
+        android:dialogTitle="@string/statusbar_weather_dialog_title"
+        android:entries="@array/status_bar_weather_entries"
+        android:entryValues="@array/status_bar_weather_values" />
 			
         <com.ancient.settings.preferences.SystemSettingSwitchPreference
             android:key="show_fourg_icon"
