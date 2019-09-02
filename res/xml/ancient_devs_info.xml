@@ -197,10 +197,10 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <Preference
             android:title="@string/dev_18"
             android:summary="@string/dev18_description"
-            android:icon="@drawable/ic_devs_pc" >
+            android:icon="@drawable/ic_code" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/PapriYoung" />
+            android:data="https://t.me/Septian126" />
         </Preference>
 
         <Preference
@@ -219,6 +219,24 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/matthewex" />
+        </Preference>
+
+         <Preference
+            android:title="@string/dev_21"
+            android:summary="@string/dev21_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="https://t.me/yuandy7" />
+        </Preference>
+
+         <Preference
+           android:title="@string/dev_22"
+           android:summary="@string/dev22_description"
+           android:icon="@drawable/ic_devs_pc" >
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="https://t.me/JopraKelana" />
         </Preference>
 
 </PreferenceCategory>
